@@ -51,8 +51,7 @@
 
 + The following fonts are available for use with `figlet`:
 
-   - `banner.flf`
-   - `big.flf`
+   - `banner.flf` , `big.flf`
    - `block.flf`
    - `bubble.flf`
    - `digital.flf`
