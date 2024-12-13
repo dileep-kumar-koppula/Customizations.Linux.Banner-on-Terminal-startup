@@ -53,8 +53,45 @@
 
    `banner.flf`, `big.flf`, `block.flf`, `bubble.flf`, `digital.flf`, `ivrit.flf`, `lean.flf`, `mini.flf`, `mnemonic.flf`, `script.flf`, `shadow.flf`, `slant.flf`, `small.flf`, `smscript.flf`, `smshadow.flf`, `smslant.flf`, `standard.flf`, `term.flf`
 
-You can use them with direct file name (without .flf extension) as
++ You can use them with direct file name (without .flf extension) as
 
    ```bash
    figlet -f shadow "Title"
+   ```
+
+# Neofetch
+
+## Edit Neofetch file
+
++ Customize however you like by just chnaging values (If you see the file, you will understand)
+
+   ```bash
+   sudo ${HOME}/.config/neofetch/config.conf
+   ```
++ Additional - Open other terminal and type `neofetch`. You can view
+
+   ```bash
+   neofetch
+   ```
+
+# Banner
+
+## Edit the `.bashrc` file to create banner
+
++ Edit bashrc file
+
+   ```bash
+   sudo nano ${HOME}/.bashrc
+   ```
++ Add the following lines to end of the file
+   ```bash
+   # Banner with figlet and lolcat
+   figlet -c "Dileep Kumar" | lolcat
+   
+   #Space between above command and below command
+   echo ""
+   echo ""
+   
+   # Open Neofetch
+   /usr/bin/neofetch
    ```
