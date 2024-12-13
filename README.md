@@ -1,6 +1,6 @@
 # Using Figlet and Lolcat
 
-## Installing Figlet and Lolcat
+## Installing required packages
 
 + Installations
    ```bash
