@@ -63,16 +63,18 @@
 
 ## Edit Neofetch file
 
-+ Customize however you like by just chnaging values (If you see the file, you will understand)
+   + Customize however you like by just chnaging values (If you see the file, you will understand)
+   
+      ```bash
+      sudo ${HOME}/.config/neofetch/config.conf
+      ```
 
-   ```bash
-   sudo ${HOME}/.config/neofetch/config.conf
-   ```
-+ Additional - Open other terminal and type `neofetch`. You can view
+   + Open other terminal and type `neofetch`. You can view
+   + neofetch will continuously run every 1 second
 
-   ```bash
-   neofetch
-   ```
+      ```bash
+      while neofetch; do sleep 1; done
+      ```
 
 # Banner
 
@@ -83,7 +85,9 @@
    ```bash
    sudo nano ${HOME}/.bashrc
    ```
+   
 + Add the following lines to end of the file
+
    ```bash
    # Banner with figlet and lolcat
    figlet -c "Dileep Kumar" | lolcat
