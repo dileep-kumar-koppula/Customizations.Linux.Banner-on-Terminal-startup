@@ -1,13 +1,13 @@
-# Using Figlet and Lolcat
+# Create Banner for Terminal when it 
 
 ## Installing required packages
 
 + Installations
    ```bash
-   sudo apt insatall figlet and lolcat -y
+   sudo apt insatall figlet lolcat neofetch -y
    ```
 
-## Basic Commands
+## Basic Commands for `figlet` and `lolcat`
 
 1. Display a title:
    ```bash
@@ -23,6 +23,7 @@
    ```bash
    figlet -f slant -c "Title" | lolcat
    ```
+   
 4. Use a different font to display the title:
    ```bash
    figlet -f digital "Title" | lolcat
@@ -33,7 +34,7 @@
    figlet -f slant -c "Dileep Kumar" | lolcat && figlet -f digital -c "Access Granted !!" | lolcat
    ```
 
-   # Figlet Command Options
+# Figlet Command Options
 
 ## Command Options
 
