@@ -3,33 +3,39 @@
 ## Installing required packages
 
 + Installations
+
    ```bash
    sudo apt insatall figlet lolcat neofetch -y
    ```
 
 ## Basic Commands for `figlet` and `lolcat`
 
-1. Display a title:
+1. Display a title
+
    ```bash
    figlet "Title"
    ```
 
-2. Center the title:
+3. Center the title
+
    ```bash
    figlet -c "Title" | lolcat
    ```
 
-3. Use a specific font to center the title:
+4. Use a specific font to center the title
+
    ```bash
    figlet -f slant -c "Title" | lolcat
    ```
    
-4. Use a different font to display the title:
+6. Use a different font to display the title
+
    ```bash
    figlet -f digital "Title" | lolcat
    ```
 
-6. Display a centered title and a message indicating access granted:
+8. Display a centered title and a message indicating access granted
+
    ```bash
    figlet -f slant -c "Dileep Kumar" | lolcat && figlet -f digital -c "Access Granted !!" | lolcat
    ```
