@@ -44,8 +44,8 @@
 
 ### Command Options
    
-      `-c`: Center the Text
-      `-f`: Specify the Font
+   `-c`: Center the Text
+   `-f`: Specify the Font
 
 ## Available Fonts
 
