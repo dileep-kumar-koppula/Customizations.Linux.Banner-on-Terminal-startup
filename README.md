@@ -50,8 +50,9 @@
 ## Available Fonts
 
 + The following fonts are available for use with `figlet`:
-
+   ```bash
    `banner.flf`, `big.flf`, `block.flf`, `bubble.flf`, `digital.flf`, `ivrit.flf`, `lean.flf`, `mini.flf`, `mnemonic.flf`, `script.flf`, `shadow.flf`, `slant.flf`, `small.flf`, `smscript.flf`, `smshadow.flf`, `smslant.flf`, `standard.flf`, `term.flf`
+   ```
 
 You can use them with direct file name (without .flf extension) as
 
