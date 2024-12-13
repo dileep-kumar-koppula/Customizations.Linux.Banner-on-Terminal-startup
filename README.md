@@ -8,7 +8,7 @@
    sudo apt insatall figlet lolcat neofetch -y
    ```
 
-### Basic Commands for `figlet` and `lolcat`
+## Basic Commands for `figlet` and `lolcat`
 
 + Display a title
 
