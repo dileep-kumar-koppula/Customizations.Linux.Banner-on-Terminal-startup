@@ -1,5 +1,12 @@
 # Using Figlet and Lolcat
 
+## Installing Figlet and Lolcat
+
++ Installations
+   ```bash
+   sudo apt insatall figlet and lolcat -y
+   ```
+
 ## Basic Commands
 
 1. Display a title:
